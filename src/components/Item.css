@@ -1,0 +1,46 @@
+.Item {
+    width: 70%;
+    display:flex;
+    flex-direction: row;
+    background-color: #292b2c;
+    justify-content: center;
+    border: 5px #292b2c;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.position {
+    display:flex;
+    justify-content: center;
+}
+
+.fix-button {
+    display: flex;
+    position:fixed;
+    right:0;
+    position: absolute;
+    height: 100%;
+    justify-content: center;
+}
+
+.Item_button {
+    border: none;
+    border-radius: 30px;
+    background-color:#292b2c ;
+
+}
+
+.fas, .fa-trash-alt {
+    color: white;
+}
+
+.fake--checkbox {
+    display: flex;
+    position:fixed;
+    left:0;
+    position: absolute;
+    height: 100%;
+    justify-content: center;
+    background-color: white;
+}
